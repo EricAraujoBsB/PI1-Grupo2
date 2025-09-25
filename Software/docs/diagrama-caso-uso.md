@@ -12,6 +12,77 @@
 
 <div align="justify">&emsp;&emsp; Para a elaboração do diagrama, foi utilizada a notação UML de casos de uso. Foram identificados dois atores principais: o <b>Usuário</b>, que interage diretamente com o sistema web, e o <b>ESP32</b>, que executa as instruções e transmite informações. Em seguida, foram modelados os casos de uso, organizando-os em funcionalidades principais e relacionamentos do tipo <b>&lt;&lt;extend&gt;&gt;</b>, como no caso de "Detalhar trajetória antiga" e "Parar carrinho". O resultado é um modelo visual que sintetiza a comunicação entre os atores e o sistema. </div>
 
+## Especificação
+
+### UC1 - Listar trajetórias antigas
+|Titulo|descrição|
+|-|-|
+|descrição | Listagem de trajetórias antigas|
+|atores    | Usuário|
+|pré-condições| Usuário está na página principal|
+|pós-condições| Exibir informações gerais de todas as trajetórias|
+|fluxo principal|1. Usuário entra acessa a página, 2. Listagem de trajetórias|
+|fluxo alternativo| |
+|fluxo de exceção| 1. Tela de exibição de erro |
+
+### UC2 - Detalhar trajetória antiga
+
+|Titulo|descrição|
+|-|-|
+|descrição | Listagem de trajetórias antigas|
+|atores    | Usuário|
+|pré-condições| Usuário está na página principal|
+|pós-condições| Exibir informações gerais de todas as trajetórias|
+|fluxo principal|1. Usuário entra acessa a página, 2. Listagem de trajetórias|
+|fluxo alternativo| |
+|fluxo de exceção| 1. Tela de exibição de erro |
+
+### UC1 - Listar trajetórias antigas
+|Titulo|descrição|
+|-|-|
+|descrição | Listagem de trajetórias antigas|
+|atores    | Usuário|
+|pré-condições| Usuário está na página principal|
+|pós-condições| Exibir informações gerais de todas as trajetórias|
+|fluxo principal|1. Usuário entra acessa a página, 2. Listagem de trajetórias|
+|fluxo alternativo| |
+|fluxo de exceção| 1. Tela de exibição de erro |
+
+### UC1 - Listar trajetórias antigas
+|Titulo|descrição|
+|-|-|
+|descrição | Listagem de trajetórias antigas|
+|atores    | Usuário|
+|pré-condições| Usuário está na página principal|
+|pós-condições| Exibir informações gerais de todas as trajetórias|
+|fluxo principal|1. Usuário entra acessa a página, 2. Listagem de trajetórias|
+|fluxo alternativo| |
+|fluxo de exceção| 1. Tela de exibição de erro |
+
+### UC1 - Listar trajetórias antigas
+|Titulo|descrição|
+|-|-|
+|descrição | Listagem de trajetórias antigas|
+|atores    | Usuário|
+|pré-condições| Usuário está na página principal|
+|pós-condições| Exibir informações gerais de todas as trajetórias|
+|fluxo principal|1. Usuário entra acessa a página, 2. Listagem de trajetórias|
+|fluxo alternativo| |
+|fluxo de exceção| 1. Tela de exibição de erro |
+
+### UC1 - Listar trajetórias antigas
+|Titulo|descrição|
+|-|-|
+|descrição | Listagem de trajetórias antigas|
+|atores    | Usuário|
+|pré-condições| Usuário está na página principal|
+|pós-condições| Exibir informações gerais de todas as trajetórias|
+|fluxo principal|1. Usuário entra acessa a página, 2. Listagem de trajetórias|
+|fluxo alternativo| |
+|fluxo de exceção| 1. Tela de exibição de erro |
+
+
+
 ## Resultados
 
 <div align="justify">&emsp;&emsp; O diagrama de casos de uso produzido apresenta as seguintes funcionalidades principais: - Conectar com o carrinho; - Planejar nova trajetória; - Listar trajetórias antigas e detalhar uma trajetória selecionada; - Iniciar e detalhar a trajetória atual; - Parar ou cancelar a trajetória; - Executar a trajetória; - Enviar dados pelo ESP32.
