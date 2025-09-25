@@ -1,4 +1,4 @@
-# Diagrama de <>
+# Diagrama de Caso de Uso
 
 ## Introdução
 
