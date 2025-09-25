@@ -21,7 +21,7 @@
 |atores    | Usuário|
 |pré-condições| Usuário está na página principal|
 |pós-condições| Exibir informações gerais de todas as trajetórias|
-|fluxo principal|1. Usuário entra acessa a página, 2. Listagem de trajetórias|
+|fluxo principal|1. Usuário acessa a página, 2. Listagem de trajetórias|
 |fluxo alternativo| |
 |fluxo de exceção| 1. Tela de exibição de erro |
 
@@ -29,22 +29,22 @@
 
 |Titulo|descrição|
 |-|-|
-|descrição | Listagem de trajetórias antigas|
+|descrição | Detalhar trajetória antiga|
 |atores    | Usuário|
-|pré-condições| Usuário está na página principal|
-|pós-condições| Exibir informações gerais de todas as trajetórias|
-|fluxo principal|1. Usuário entra acessa a página, 2. Listagem de trajetórias|
+|pré-condições| Usuário seleciona uma trajetória dentro das listagem de trajetórias|
+|pós-condições| Exibir informações detalhadas da trajetória|
+|fluxo principal|1. Usuário acessa a página, 2. Listagem de trajetórias, 3. Seleciona uma trajetória|
 |fluxo alternativo| |
 |fluxo de exceção| 1. Tela de exibição de erro |
 
-### UC1 - Listar trajetórias antigas
+### UC3 - Detalhar trajetória atual
 |Titulo|descrição|
 |-|-|
-|descrição | Listagem de trajetórias antigas|
+|descrição | Detalhar trajetória atual|
 |atores    | Usuário|
-|pré-condições| Usuário está na página principal|
-|pós-condições| Exibir informações gerais de todas as trajetórias|
-|fluxo principal|1. Usuário entra acessa a página, 2. Listagem de trajetórias|
+|pré-condições| Usuário iniciou uma trajetória|
+|pós-condições| Exibir informações em tempo real da trajetória iniciada|
+|fluxo principal|1. Usuário acessa a página, 2. Planeja nova trajetória, 3. Inicia uma trajetória , 4. Detalhar trajetória atual|
 |fluxo alternativo| |
 |fluxo de exceção| 1. Tela de exibição de erro |
 
