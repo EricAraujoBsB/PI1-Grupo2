@@ -38,7 +38,50 @@
 | fluxo alternativo |                                                                                     |
 | fluxo de exceção  | 1. Tela de exibição de erro                                                         |
 
-### UC3 - Detalhar trajetória atual
+### UC3 - Conectar com carrinho
+
+| Título           | Descrição                                                                                                                                                                                                                                                                                                                     |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição        | Estabelece a conexão de comunicação em tempo real entre a interface web do usuário e um carrinho específico na rede.                                                                                                                                                                                                          |
+| Atores           | Usuário                                                                                                                                                                                                                                                                                                                       |
+| Pré-condições    | 1. O carrinho (ESP32) está ligado e conectado à mesma rede Wi-Fi que o sistema. <br>2. O usuário está na tela principal da interface web.                                                                                                                                                                                     |
+| Pós-condições    | A conexão é estabelecida, e o sistema exibe o status "conectado".                                                                                                                                                                                                                                                             |
+| Fluxo principal  | 1. O sistema busca e exibe uma lista de carrinhos online (ou oferece um campo para IP).<br>2. O usuário seleciona o carrinho desejado e clica em "Conectar".<br>3. O sistema tenta estabelecer uma conexão com o carrinho.<br>4. O carrinho aceita a conexão.<br>5. O sistema atualiza a interface para o estado "Conectado". |
+| Fluxo de exceção | 3a. O sistema não consegue se comunicar com o carrinho e exibe a uma mensagem de erro.                                                                                                                                                                                                                                        |
+
+### UC4 - Planejar nova trajetória
+
+| Título           | Descrição                                                                                                                                                                                                                                                                                                                                                                                              |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Descrição        | Permite que o usuário crie ou edite uma sequência de comandos que o carrinho deverá executar.                                                                                                                                                                                                                                                                                                          |
+| Atores           | Usuário                                                                                                                                                                                                                                                                                                                                                                                                |
+| Pré-condições    | 1. O usuário está na área de planejamento da interface.                                                                                                                                                                                                                                                                                                                                                |
+| Pós-condições    | A sequência de comandos é enviada ao carrinho.                                                                                                                                                                                                                                                                                                                                                         |
+| Fluxo principal  | 1. O sistema exibe os três comandos disponíveis: "Avançar (distância)", "Virar à esquerda", "Virar à direita".<br>2. O usuário adiciona e ordena os comandos para formar uma sequência, preenchendo o parâmetro "distância" quando necessário.<br>3. Ao finalizar a montagem, o usuário clica no botão "Enviar" ou "Executar".<br>4. O sistema envia a sequência de comandos validada para o carrinho. |
+| Fluxo de exceção | 4a. Parâmetro inválido (ex: o campo "distância" está vazio, não é um número ou é negativo) e mostra uma mensagem para o usuário.                                                                                                                                                                                                                                                                |
+### UC5 - Iniciar trajetória
+| Titulo            | descrição                                                                                          |
+| ----------------- | -------------------------------------------------------------------------------------------------- |
+| descrição         | Confirma comandos e envia eles à ESP32                                                             |
+| atores            | Usuário                                                                                            |
+| pré-condições     | Usuário digitou uma lista de comandos para o carrinho                                              |
+| pós-condições     | ESP32 recebe os comandos a serem executados pelo carrinho                                          |
+| fluxo principal   | 1. Usuário entra acessa a página, 2. Usuário planeja nova trajetória, 3. Usuário inicia trajetória |
+| fluxo alternativo |                                                                                                    |
+| fluxo de exceção  | 1. Tela de exibição de erro                                                                        |
+
+### UC6 - Parar carrinho
+| Titulo            | descrição                                                                                                                       |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| descrição         | Cancela a trajetória que está sendo executada pelo carrinho                                                                     |
+| atores            | Usuário                                                                                                                         |
+| pré-condições     | Usuário iniciou uma trajetória                                                                                                  |
+| pós-condições     | Carrinho para                                                                                                                   |
+| fluxo principal   | 1. Usuário entra acessa a página, 2. Usuário planejou nova trajetória, 3. Usuário inicia trajetória, 4. Usuário para trajetória |
+| fluxo alternativo |                                                                                                                                 |
+| fluxo de exceção  | 1. Tela de exibição de erro                                                                                                     |
+
+### UC7 - Detalhar trajetória atual
 
 | Titulo            | descrição                                                                                                       |
 | ----------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -50,64 +93,6 @@
 | fluxo alternativo |                                                                                                                 |
 | fluxo de exceção  | 1. Tela de exibição de erro                                                                                     |
 
-### UC1 - Listar trajetórias antigas
-
-| Titulo            | descrição                                                    |
-| ----------------- | ------------------------------------------------------------ |
-| descrição         | Listagem de trajetórias antigas                              |
-| atores            | Usuário                                                      |
-| pré-condições     | Usuário está na página principal                             |
-| pós-condições     | Exibir informações gerais de todas as trajetórias            |
-| fluxo principal   | 1. Usuário entra acessa a página, 2. Listagem de trajetórias |
-| fluxo alternativo |                                                              |
-| fluxo de exceção  | 1. Tela de exibição de erro                                  |
-
-### UC1 - Listar trajetórias antigas
-
-| Titulo            | descrição                                                    |
-| ----------------- | ------------------------------------------------------------ |
-| descrição         | Listagem de trajetórias antigas                              |
-| atores            | Usuário                                                      |
-| pré-condições     | Usuário está na página principal                             |
-| pós-condições     | Exibir informações gerais de todas as trajetórias            |
-| fluxo principal   | 1. Usuário entra acessa a página, 2. Listagem de trajetórias |
-| fluxo alternativo |                                                              |
-| fluxo de exceção  | 1. Tela de exibição de erro                                  |
-
-### UC1 - Listar trajetórias antigas
-
-| Titulo            | descrição                                                    |
-| ----------------- | ------------------------------------------------------------ |
-| descrição         | Listagem de trajetórias antigas                              |
-| atores            | Usuário                                                      |
-| pré-condições     | Usuário está na página principal                             |
-| pós-condições     | Exibir informações gerais de todas as trajetórias            |
-| fluxo principal   | 1. Usuário entra acessa a página, 2. Listagem de trajetórias |
-| fluxo alternativo |                                                              |
-| fluxo de exceção  | 1. Tela de exibição de erro                                  |
-
-### UC4 - Conectar com carrinho
-
-| Título           | Descrição                                                                                                                                                                                                                                                                                                                     |
-| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Descrição        | Estabelece a conexão de comunicação em tempo real entre a interface web do usuário e um carrinho específico na rede.                                                                                                                                                                                                          |
-| Atores           | Usuário                                                                                                                                                                                                                                                                                                                       |
-| Pré-condições    | 1. O carrinho (ESP32) está ligado e conectado à mesma rede Wi-Fi que o sistema. <br>2. O usuário está na tela principal da interface web.                                                                                                                                                                                     |
-| Pós-condições    | A conexão é estabelecida, e o sistema exibe o status "conectado".                                                                                                                                                                                                                                                             |
-| Fluxo principal  | 1. O sistema busca e exibe uma lista de carrinhos online (ou oferece um campo para IP).<br>2. O usuário seleciona o carrinho desejado e clica em "Conectar".<br>3. O sistema tenta estabelecer uma conexão com o carrinho.<br>4. O carrinho aceita a conexão.<br>5. O sistema atualiza a interface para o estado "Conectado". |
-| Fluxo de exceção | 3a. O sistema não consegue se comunicar com o carrinho e exibe a uma mensagem de erro.                                                                                                                                                                                                                                        |
-
-### UC5 - Planejar nova trajetória
-
-| Título           | Descrição                                                                                                                                                                                                                                                                                                                                                                                              |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Descrição        | Permite que o usuário crie ou edite uma sequência de comandos que o carrinho deverá executar.                                                                                                                                                                                                                                                                                                          |
-| Atores           | Usuário                                                                                                                                                                                                                                                                                                                                                                                                |
-| Pré-condições    | 1. O usuário está na área de planejamento da interface.                                                                                                                                                                                                                                                                                                                                                |
-| Pós-condições    | A sequência de comandos é enviada ao carrinho.                                                                                                                                                                                                                                                                                                                                                         |
-| Fluxo principal  | 1. O sistema exibe os três comandos disponíveis: "Avançar (distância)", "Virar à esquerda", "Virar à direita".<br>2. O usuário adiciona e ordena os comandos para formar uma sequência, preenchendo o parâmetro "distância" quando necessário.<br>3. Ao finalizar a montagem, o usuário clica no botão "Enviar" ou "Executar".<br>4. O sistema envia a sequência de comandos validada para o carrinho. |
-| Fluxo de exceção | 4a. Parâmetro inválido (ex: o campo "distância" está vazio, não é um número ou é negativo) e mostra uma mensagem para o usuário.                                                                                                                                                                                                                                                                       |
-
 ## Resultados
 
 <div align="justify">&emsp;&emsp; O diagrama de casos de uso produzido apresenta as seguintes funcionalidades principais: - Conectar com o carrinho; - Planejar nova trajetória; - Listar trajetórias antigas e detalhar uma trajetória selecionada; - Iniciar e detalhar a trajetória atual; - Parar ou cancelar a trajetória; - Executar a trajetória; - Enviar dados pelo ESP32.
@@ -116,7 +101,7 @@ Assim, o modelo demonstra como o sistema possibilita tanto a análise de trajet�
 
 </div>
 
-![Desc](link)
+![Diagrama Casos de Uso](assets/diagrama_casos_de_uso.png)
 
 <center><b>Autor(es):</b> Márcio Henrique, Cássio Reis, Eduardo Matheus.</center>
 
