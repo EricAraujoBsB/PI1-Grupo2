@@ -27,6 +27,7 @@ https://grabcad.com/library/mpu-9250-1
 https://grabcad.com/library?page=1&time=all_time&sort=recent&query=ball%20caster
   - Compatível:
 
-- [ ] PLACA DE DESENVOLVIMENTO:
+- [x] PLACA DE DESENVOLVIMENTO:
+https://grabcad.com/library/esp32-deek-robot-terminal-adapter-1
 
   - Compatível:
