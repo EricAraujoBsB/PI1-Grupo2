@@ -13,7 +13,7 @@ https://grabcad.com/library/encoder-disk-2
 - [ ] RODA TRASEIRA: 
 
 
-- [x] ACELEROMETRO: 
+- [x] ACELERÔMETRO: 
 https://grabcad.com/library/mpu-9250-1
 
 - [x] RODA DIANTEIRA: 
