@@ -18,6 +18,7 @@ https://grabcad.com/library/lm393-motor-speed-measuring-sensor-module-1
 https://grabcad.com/library/encoder-disk-2
   - [x] Testado: https://grabcad.com/library/encoder-disk-2 
   - [x] Compatível: Arquivo "encoder disk.STEP"
+  - [ ] Dimensões: D: 25,756 mm / Espessura máx: 3,175 mm / Espessura mín: 2,54 mm
 
 - RODA TRASEIRA:
   - [ ] Testado:
