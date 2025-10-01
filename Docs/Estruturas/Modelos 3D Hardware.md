@@ -39,26 +39,26 @@ https://grabcad.com/library/esp32-deek-robot-terminal-adapter-1
   - [x] Testado: https://grabcad.com/library/esp32-terminal-adapter-1
   - [x] Compatível: Talvez tenha que remodelar para corresponder ao modelo comprado (e separar da ESP)
 
-- [ ] Sensor de Ultrassonico Hc-sr04:
+- SENSOR DE ULTRASSONICO Hc-sr04:
   - [ ] Testado:
   - [ ] Compatível:
 
-- [ ] Ponte H L298N :
+- PONTE H L298N :
   - [ ] Testado:
   - [ ] Compatível:
 
-- [ ] Motor 3-6 V:
+- MOTOR 3-6 V:
   - [ ] Testado:
   - [ ] Compatível:
 
-- [ ] baterias NiMH 6 V (2000 mAh):
+- BATERIA NiMH 6 V (2000 mAh):
   - [ ] Testado:
   - [ ] Compatível:
 
-- [ ] Célula 18650 3,7 V (2200 mAh):
+- CÉLULA 18650 3,7 V (2200 mAh):
   - [ ] Testado:
   - [ ] Compatível:
     
-- [ ] Regulador de tensão LM2596:
+- REGULADOR DE TENSÃO LM2596:
   - [ ] Testado:
   - [ ] Compatível:
