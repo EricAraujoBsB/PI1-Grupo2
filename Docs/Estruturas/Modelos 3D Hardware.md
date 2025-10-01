@@ -1,7 +1,7 @@
 - ESP:
 https://grabcad.com/library?page=1&time=all_time&sort=recent&query=esp32%20wroom%2032
   - [x] Testado: https://grabcad.com/library/esp32-terminal-adapter-1
-  - [x] Compatível: Tem que separar a ESP da placa de dev na modelagem 3d
+  - [x] Compatível: Tem que separar a ESP da placa de dev na modelagem 3d, vem em stl ent tem muitos triângulos, talvez seja melhor procurar outro
 
 - MOTOR:
 https://grabcad.com/library/3-6v-dc-gearbox-electromotor-1
@@ -10,8 +10,8 @@ https://grabcad.com/library/3-6v-dc-gearbox-electromotor-1
 
 - SENSOR VELOCIDADE: 
 https://grabcad.com/library/lm393-motor-speed-measuring-sensor-module-1
-  - [ ] Testado:
-  - [ ] Compatível:
+  - [x] Testado: https://grabcad.com/library/lm393-motor-speed-measuring-sensor-module-1
+  - [x] Compatível: 
 
 - DISCO ENCODER: 
 https://grabcad.com/library/encoder-disk-2
