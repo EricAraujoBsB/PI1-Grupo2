@@ -1,6 +1,6 @@
 
-## Em vez de modelar os componentes eletrônicos perfeitamente, modelar apenas como formas geométricas simplificadas.
-### As dimensões estão na planilha: https://unbbr-my.sharepoint.com/:x:/g/personal/221007822_aluno_unb_br/EUa8brnz7TBNpTx4DXP05wEBw7jQMQ3m4cBvqsZduUUHDQ?e=PMUtHZ
+# Em vez de modelar os componentes eletrônicos perfeitamente, modelar apenas como formas geométricas simplificadas.
+## As dimensões estão na planilha: https://unbbr-my.sharepoint.com/:x:/g/personal/221007822_aluno_unb_br/EUa8brnz7TBNpTx4DXP05wEBw7jQMQ3m4cBvqsZduUUHDQ?e=PMUtHZ
 
 
 
