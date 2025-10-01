@@ -31,3 +31,7 @@ https://grabcad.com/library?page=1&time=all_time&sort=recent&query=ball%20caster
 https://grabcad.com/library/esp32-deek-robot-terminal-adapter-1
 
   - Compatível: https://grabcad.com/library/esp32-terminal-adapter-1
+
+- [ ] Sensor de Ultrassonico Hc-sr04:
+
+  - Compatível:
