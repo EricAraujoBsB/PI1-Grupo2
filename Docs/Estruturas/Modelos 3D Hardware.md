@@ -12,7 +12,7 @@ https://grabcad.com/library/lm393-motor-speed-measuring-sensor-module-1
 
 - [ ] DISCO ENCODER: 
 https://grabcad.com/library/encoder-disk-2
-  - Compatível:
+  - Compatível: https://grabcad.com/library/encoder-disk-2 (Arquivo "encoder disk.STEP")
 
 - [ ] RODA TRASEIRA:
 
