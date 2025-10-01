@@ -11,7 +11,8 @@ https://grabcad.com/library/3-6v-dc-gearbox-electromotor-1
 - SENSOR VELOCIDADE: 
 https://grabcad.com/library/lm393-motor-speed-measuring-sensor-module-1
   - [x] Testado: https://grabcad.com/library/lm393-motor-speed-measuring-sensor-module-1
-  - [x] Compatível: 
+  - [x] Compatível:
+  - 31,3mm X 14,2mm X 11,815mm
 
 - DISCO ENCODER: 
 https://grabcad.com/library/encoder-disk-2
