@@ -27,9 +27,9 @@ https://grabcad.com/library/encoder-disk-2
 
 - ACELERÔMETRO: 
 https://grabcad.com/library/mpu-9250-1
-  - [ ] Testado:
-  - [ ] Compatível:
-  - Dimensões:
+  - [x] Testado: https://grabcad.com/library/mpu-9250-1
+  - [x] Compatível: Arquivo "MPU-9250.stp"
+  - Dimensões: 15 mm x 25 mm x 12,696 mm (Profundidade máxima devido ao tamanho dos pinos presentes no CAD)
     
 - RODA DIANTEIRA: 
 https://grabcad.com/library?page=1&time=all_time&sort=recent&query=ball%20caster
