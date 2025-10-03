@@ -9,7 +9,7 @@ https://grabcad.com/library?page=1&time=all_time&sort=recent&query=esp32%20wroom
   - <s> Testado: https://grabcad.com/library/esp32-terminal-adapter-1
   - Compatível: Tem que separar a ESP da placa de dev na modelagem 3d, vem em stl ent tem muitos triângulos, talvez seja melhor procurar outro
   - Dimensões: </s>
-  - [ ] Modelado
+  - [x] Modelado
   
 - MOTOR:
 https://grabcad.com/library/3-6v-dc-gearbox-electromotor-1
@@ -30,7 +30,7 @@ https://grabcad.com/library/encoder-disk-2
   - <s> Testado: https://grabcad.com/library/encoder-disk-2 
   - Compatível: Arquivo "encoder disk.STEP"
   - Dimensões: D: 25,756 mm / Espessura máx: 3,175 mm / Espessura mín: 2,54 mm </s>
-  - [ ] Modelado
+  - [x] Modelado
 
 - RODA TRASEIRA:
   - <s> Testado:
