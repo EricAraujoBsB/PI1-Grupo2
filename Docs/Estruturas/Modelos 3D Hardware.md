@@ -16,7 +16,7 @@ https://grabcad.com/library/3-6v-dc-gearbox-electromotor-1
   - <s> Testado:
   - Compatível: Precisa converter de .ipt para .stl, provavelmente usando AutoDesk
   - Dimensões: </s>
-  - [ ] Modelado
+  - [x] Modelado
 
 - SENSOR VELOCIDADE: 
 https://grabcad.com/library/lm393-motor-speed-measuring-sensor-module-1
@@ -63,7 +63,7 @@ https://grabcad.com/library/esp32-deek-robot-terminal-adapter-1
   - [ ] Modelado
 
 - PONTE H L298N:
-  - [ ] Modelado
+  - [x] Modelado
 
 
 - BATERIA NiMH 6 V (2000 mAh):
