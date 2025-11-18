@@ -1,3 +1,6 @@
+// Adicionar encoder
+
+
 // Classe para controle de um motor DC
 class DCMotor {
   int pin1, pin2; // Definindo os pinos para controle do motor
